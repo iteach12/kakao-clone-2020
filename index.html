@@ -4,11 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Welcome to kakao talk</title>
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <div id="status-bar">
+    <div class="status-bar">
       <div class="status-bar__column">
         <span>No Service</span>
+        <i class="fas fa-wifi"></i>
         <!-- To do: wifi Icon -->
       </div>
       <div class="status-bar__column">
@@ -16,9 +18,27 @@
       </div>
       <div class="status-bar__column">
         <span>110%</span>
-        <!-- Battery Icon -->
-        <!-- Lightning Icon -->
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
       </div>
     </div>
+    <header class="welcome-header">
+      <h1 class="welcome-header__title">Welcome to Kokoa Clone</h1>
+      <p class="welcome-header__text">
+        If you have a Kokoa Acoount, log in with your email or phone number.
+      </p>
+    </header>
+
+    <form id="login-form">
+      <input type="text" placeholder="email or phone number" />
+      <input type="password" placeholder="password" />
+      <input type="submit" value="Log in" />
+      <input type="submit" value="Sign up" />
+      <a href="#">Find Kakao Clone Account or password.</a>
+    </form>
+    <script
+      src="https://kit.fontawesome.com/d63bb8d37a.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
