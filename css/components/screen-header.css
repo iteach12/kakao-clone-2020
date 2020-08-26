@@ -3,11 +3,36 @@
   justify-content: space-between;
   align-items: center;
   padding: var(--horizontal-space);
+  margin-bottom: 15px;
 }
 .screen-header__title {
   font-size: 32px;
   font-weight: 600;
 }
+
+.screen-header__icons{
+  display: flex;
+  align-items: center;
+}
+
+.screen-header__cog{
+  position: relative;
+}
+.screen-header__more-changed{
+  background-color: tomato;
+width: 8px;
+height: 8px;
+border-radius: 4px;
+display: flex;
+justify-content: center;
+align-items: center;
+position: absolute;
+
+left: 20px;
+bottom: 20px;
+
+}
+
 .screen-header__icons span {
   margin-left: 25px;
 }
